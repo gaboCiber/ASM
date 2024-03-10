@@ -1755,9 +1755,7 @@
     <wire from="(1030,260)" to="(1070,260)"/>
     <wire from="(1230,350)" to="(1230,360)"/>
     <wire from="(480,320)" to="(480,350)"/>
-    <wire from="(550,460)" to="(660,460)"/>
     <wire from="(720,300)" to="(720,450)"/>
-    <wire from="(510,460)" to="(550,460)"/>
     <wire from="(390,300)" to="(480,300)"/>
     <wire from="(860,270)" to="(880,270)"/>
     <wire from="(980,250)" to="(1000,250)"/>
@@ -1767,7 +1765,6 @@
     <wire from="(480,300)" to="(510,300)"/>
     <wire from="(480,320)" to="(510,320)"/>
     <wire from="(1270,290)" to="(1280,290)"/>
-    <wire from="(1260,280)" to="(1270,280)"/>
     <wire from="(720,270)" to="(740,270)"/>
     <wire from="(1140,240)" to="(1150,240)"/>
     <wire from="(330,290)" to="(360,290)"/>
@@ -1800,12 +1797,11 @@
     <wire from="(810,270)" to="(850,270)"/>
     <wire from="(400,250)" to="(400,280)"/>
     <wire from="(1230,320)" to="(1230,330)"/>
-    <wire from="(1270,280)" to="(1270,290)"/>
     <wire from="(410,460)" to="(510,460)"/>
     <wire from="(1080,270)" to="(1080,280)"/>
     <wire from="(1070,260)" to="(1070,270)"/>
+    <wire from="(510,460)" to="(660,460)"/>
     <wire from="(990,320)" to="(1140,320)"/>
-    <wire from="(1270,240)" to="(1280,240)"/>
     <wire from="(1270,340)" to="(1280,340)"/>
     <wire from="(690,300)" to="(720,300)"/>
     <wire from="(950,260)" to="(980,260)"/>
@@ -1823,10 +1819,6 @@
     <wire from="(240,250)" to="(240,310)"/>
     <wire from="(1260,440)" to="(1280,440)"/>
     <wire from="(1260,400)" to="(1280,400)"/>
-    <comp lib="0" loc="(550,460)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="Sm"/>
-    </comp>
     <comp lib="0" loc="(100,220)" name="Tunnel">
       <a name="label" val="start"/>
     </comp>
@@ -1871,10 +1863,6 @@
     <comp lib="0" loc="(100,340)" name="Tunnel">
       <a name="label" val="End Print"/>
     </comp>
-    <comp lib="0" loc="(1270,290)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Sm"/>
-    </comp>
     <comp lib="0" loc="(300,330)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="Reset"/>
@@ -1912,18 +1900,16 @@
       <a name="tristate" val="false"/>
       <a name="label" val="Reset"/>
     </comp>
+    <comp lib="0" loc="(1270,290)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="La"/>
+    </comp>
     <comp lib="0" loc="(90,260)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="a&lt;=b"/>
     </comp>
     <comp lib="0" loc="(490,350)" name="Tunnel">
       <a name="label" val="La"/>
-    </comp>
-    <comp lib="0" loc="(1280,290)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Smax"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="4" loc="(1110,240)" name="D Flip-Flop">
       <a name="label" val="END"/>
@@ -1954,10 +1940,6 @@
       <a name="output" val="true"/>
       <a name="label" val="Lmax"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1270,240)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="La"/>
     </comp>
     <comp lib="4" loc="(890,250)" name="D Flip-Flop">
       <a name="label" val="PRINT"/>
@@ -2012,6 +1994,12 @@
       <a name="facing" val="east"/>
       <a name="label" val="CLK"/>
     </comp>
+    <comp lib="0" loc="(1280,290)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="La"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="0" loc="(90,340)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="End Print"/>
@@ -2027,12 +2015,6 @@
     <comp lib="0" loc="(1260,400)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Start Print"/>
-    </comp>
-    <comp lib="0" loc="(1280,240)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="La"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(510,460)" name="Tunnel">
       <a name="facing" val="north"/>

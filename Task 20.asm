@@ -10,7 +10,7 @@ L db 4, 3, 5, 6
 section .text
 global main
 main:
-    ; Obtener direccion L+b
+    ; Obtener la direccion L+b
     mov ebx, L
     add bl, [b]
     

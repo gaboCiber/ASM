@@ -1,0 +1,10 @@
+Solve 45(x, n, L):
+    sum  = 0
+    count = 0
+    
+    while count < n:
+        if [L + count] > x
+            sum += [L + count]
+        count++
+    
+    return sum

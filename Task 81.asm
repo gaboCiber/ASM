@@ -2,7 +2,7 @@
 
 section .data
 n dw 10
-L dw 20,4,1,10,5,2, 8,15,3,5
+L dw 20,4,1,10,5,2,8,15,3,5
 
 section .bss
 arrmax resw 6
@@ -14,23 +14,23 @@ main:
     
     ;------------------------------------------------ 
     
-    mov ax, [L]
-    mov ebx, L
-    mov edx, arrmax
-    mov cx, 0
+    mov ax, [L] ; max = [L]
+    mov ebx, L 
+    mov edx, arrmax ; maximum = new arr[n]
+    mov cx, 0 ; count = 0
     
     While:
-    cmp cx, [n]
+    cmp cx, [n] ; count <= n
     jA PRINT
     
-    cmp ax, [ebx]
+    cmp ax, [ebx] ; if max < [L + count]
     JAE Incrementar
     
-    mov ax, [ebx]
+    mov ax, [ebx] ; max = [L + count]
     
     Incrementar:
-    mov [edx], ax
-    add bx, 2
+    mov [edx], ax ; [maximum + count] = max
+    add bx, 2 
     add cx, 1
     add dx, 2
     jmp While

@@ -1,0 +1,13 @@
+Solve 81(n, L):
+    maximum = new arr[n]
+    count = 0
+    max = [L]
+
+    while count < n:
+        if max < [L + count]
+            max = [L + count]
+
+        [maximum + count] = max
+        count++
+
+    return maximum

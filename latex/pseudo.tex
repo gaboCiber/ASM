@@ -1,0 +1,77 @@
+\documentclass{report}
+\usepackage[spanish]{babel}
+\usepackage[left=2.5cm, right=2.5cm, top=3cm, bottom=3cm]{geometry}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{listings}
+
+\begin{document}
+
+\section*{Problema 20}
+
+Dada una lista $L$ de $n$ elementos $a_1,a_2,...,a_n$ y un íntervalo $[b,c]$ dentro de esa lista devolver el máximo elemento de ese intervalo.
+
+\begin{itemize}
+    \item $b$ : un número de tamaño $db$ que representa $b$
+    \item $c$ : un número de tamaño $db$ que representa $c$
+    \item $n$ : un número de tamaño $dd$ que representa al tamaño de la lista $L$
+    \item $array$ : un array de números de tamaño $dd$ que representa $L$
+\end{itemize}
+
+
+\begin{tcolorbox}
+    \lstinputlisting{codigos/problem20.txt}
+\end{tcolorbox}
+
+\section*{Problema 45}
+
+Sea una lista no ordenada $L$ de $n$ elementos $a_1,a_2,...,a_n$ y un número $x$, devolver la suma de todos los números en $L$ que sean mayores que $x$.
+\begin{itemize}
+    \item $x$ : un número de tamaño $db$ que representa $x$
+    \item $n$ : un número de tamaño $dd$ que representa al tamaño de la lista $L$
+    \item $array$ : un array de números de tamaño $dd$ que representa $L$
+\end{itemize}
+
+\begin{tcolorbox}
+    \lstinputlisting{codigos/problem45.txt}
+\end{tcolorbox}
+
+
+\section*{Problema 66}
+
+Dado dos arrays ordenados $A_1,A_2$ devolver el arreglo ordenado $A_3$ obtenido haciendo una mezcla ordenada de $A_1$ y $A_2$.
+
+\begin{itemize}
+    \item $n_1$ : un número de tamaño $dd$ que representa al tamaño de la lista $L$
+    \item $array_1$ : un array de números de tamaño $dd$ que representa $L$
+    \item $n_2$ : un número de tamaño $dd$ que representa al tamaño de la lista $L^{'}$
+    \item $array_2$ : un array de números de tamaño $dd$ que representa $L^{'}$
+\end{itemize}
+
+\begin{tcolorbox}
+    \lstinputlisting{codigos/problem66.txt}
+\end{tcolorbox}
+
+\newpage
+
+\section*{Problema 81}
+
+Se tiene una lista $L$ de tamaño $n$ con números enteros. Construya la lista $L^\prime$ tal que
+$$L^\prime[i]= \max_{j=0}^i L[j]$$
+con $i=0,1,...,n-1$.
+
+\begin{itemize}
+    \item $n$ : un número de tamaño $dw$ que representa $n$
+    \item $L$ : un array de números de tamaño $dw$ que representa $L$
+\end{itemize}
+
+\begin{tcolorbox}
+    \lstinputlisting{codigos/problem81.txt}
+\end{tcolorbox}
+
+\end{document}

@@ -1,7 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1711743929 "/home/gabo/Personal/Universidad/2da Año/Arquitectura de Computadoras/Tarea Evaluativa/ASM/latex/pseudo.tex" "pseudo.pdf" "pseudo" 1711743930
+["pdflatex"] 1711746277 "/home/gabo/Personal/Universidad/2da Año/Arquitectura de Computadoras/Tarea Evaluativa/ASM/latex/pseudo.tex" "pseudo.pdf" "pseudo" 1711746278
+  "../codigos/problem20.txt" 1711746209 172 5d1c359c112193267fa3801700822d07 ""
+  "../codigos/problem45.txt" 1711743302 166 85631e9fb6c10420181a81ebe2b2debe ""
+  "../codigos/problem66.txt" 1711743312 618 b9409f60afb19ec0dd23aa3bd9bfee44 ""
+  "../codigos/problem81.txt" 1711743320 219 025180d4369fa4650af94150161e7040 ""
   "/etc/texmf/web2c/texmf.cnf" 1690608267 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/gabo/Personal/Universidad/2da Año/Arquitectura de Computadoras/Tarea Evaluativa/ASM/latex/pseudo.tex" 1711743928 2459 e1d0343b241ccf514d6c6f60a1827d3b ""
+  "/home/gabo/Personal/Universidad/2da Año/Arquitectura de Computadoras/Tarea Evaluativa/ASM/latex/pseudo.tex" 1711746275 2471 aa3559c03e8b6b8233f83dc4cc95c30c ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -119,12 +123,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1690608285 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1711629475 1427448 1af3bb39d7633b3415eb00fd23e78168 ""
-  "codigos/problem20.txt" 1711743002 171 667e91fa85d23f27cf93b2f253f714cd ""
-  "codigos/problem45.txt" 1711743302 166 85631e9fb6c10420181a81ebe2b2debe ""
-  "codigos/problem66.txt" 1711743312 618 b9409f60afb19ec0dd23aa3bd9bfee44 ""
-  "codigos/problem81.txt" 1711743320 219 025180d4369fa4650af94150161e7040 ""
-  "pseudo.aux" 1711743930 582 851ee84101f5842b3c551162a1c0ae07 "pdflatex"
-  "pseudo.tex" 1711743928 2459 e1d0343b241ccf514d6c6f60a1827d3b ""
+  "pseudo.aux" 1711746278 594 70bd150e938bc06fc014c4335d92bc5f "pdflatex"
+  "pseudo.tex" 1711746275 2471 aa3559c03e8b6b8233f83dc4cc95c30c ""
   (generated)
   "pseudo.aux"
   "pseudo.log"

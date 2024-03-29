@@ -1,0 +1,10 @@
+Solve 20(b, c, n, L):
+    count = b
+    max = [L + count]
+    
+    while b <= c:
+        if max < [L + count]
+            max = [L + count]
+        count++
+
+    return max
